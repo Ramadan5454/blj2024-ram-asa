@@ -19,10 +19,10 @@ int isLeapYear(int year) {
     // todo first
     // returns 1 if isLeapYear
     // returns 0 if is no LeapYear
-    if (year % 4 == 0) {
+        if (year % 4 == 0) {
         // jahr ist durch vier teilbar
         if (year % 100 == 0) {
-            if (year % 400 == 0) {
+        if (year % 400 == 0) {
                 return 1;
             }
         }
