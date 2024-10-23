@@ -18,10 +18,12 @@ int main(void) {
         greeting = "Sehr geehrte";
     }
 
-    printf("%s %s!\n\n", greeting, reciver);
+    printf("%s %s \n\n", greeting, reciver);
 
 
     printf("Hiermit übermittle ich Ihnen die notwenigen Papiere\n\n");
+
+    printf("Liebe Grüsse\n\n");
 
     printf("Anhänge %d", Anhang);
 
