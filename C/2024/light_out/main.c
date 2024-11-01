@@ -49,8 +49,8 @@ int main() {
         printf("(oder -1 -1 zum Beenden):");
         scanf("%d %d", &row, &col); //für Zeilen/Spalten
 
-        if (row == -1 && col == -1) {
             printf("Programm beendet.\n");
+        if (row == -1 && col == -1) {
             break;
         }
 
