@@ -6,6 +6,6 @@ typedef struct Node {
     struct Node *next;      // Zeiger auf den nächsten Knoten
 }TNode;
 
-
-
+TNode *createNode(int data);
+void nodePrint(TNode *node);
 #endif //LINKEDLIST_H
